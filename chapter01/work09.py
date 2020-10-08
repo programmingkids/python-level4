@@ -14,7 +14,5 @@ scores = {
     "英語" : 95,
 }
 
-try :
-    print(scores["理科"])
-except KeyError as e:
-    print("例外発生:" + str(e))
+
+print(scores["理科"])

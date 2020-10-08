@@ -6,11 +6,4 @@ person = {
     "age" : 15,
 }
 
-try :
-    print(person["hobby"])
-except KeyError:
-    print("存在しないキーを指定しました")
-else:
-    print("キーが存在します")
-finally:
-    print("必ず実行します")
+
