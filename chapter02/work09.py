@@ -10,6 +10,3 @@ PINK
 """
 
 colors = ["blue","Red","grEEN","PinK"]
-
-for color in colors:
-    print(color.upper())

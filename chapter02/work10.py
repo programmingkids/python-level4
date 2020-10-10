@@ -8,6 +8,3 @@
 """
 
 message = "apple,orange,melon,peach"
-
-fruits = message.split(",")
-print(fruits)
