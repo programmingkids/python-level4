@@ -13,5 +13,3 @@ from datetime import datetime
 
 date_str = "2005-10-29 15:30:00+0900"
 
-dt_obj = datetime.strptime(date_str,"%Y-%m-%d %H:%M:%S%z")
-print(dt_obj.strftime("%Y年%m月%d日%H時%M分%S秒"))

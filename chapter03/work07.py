@@ -18,7 +18,3 @@ from datetime import datetime, timezone, timedelta
 # 日本標準時間のタイムゾーンの作成（+9時間）
 tz_jst = timezone(timedelta(hours=9))
 
-now = datetime.now(tz=tz_jst)
-next_15_day = now + timedelta(days=15)
-
-print(next_15_day.strftime("%Y年%m月%d日%H時%M分%S秒"))
