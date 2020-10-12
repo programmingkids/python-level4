@@ -11,4 +11,3 @@ import math
 
 r = 4
 
-print(math.pi * math.pow(r, 2))
