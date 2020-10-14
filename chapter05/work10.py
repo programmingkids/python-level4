@@ -20,7 +20,3 @@ python-level4/chapter05/data/data10.txt
 江戸時代
 """
 
-with open("python-level4/chapter05/data/data10.txt", "r") as f:
-    lines = f.readlines()
-    for line in lines:
-        print(line, end="")
