@@ -14,7 +14,4 @@ nations = {
     "Spain" : "Madrid",
 }
 
-try :
-    print(nations["USA"])
-except KeyError as e:
-    print("例外発生:" + str(e))
+print(nations["USA"])

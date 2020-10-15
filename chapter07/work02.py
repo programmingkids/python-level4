@@ -10,7 +10,4 @@ try-exceptで例外を補足するようにしてください
 
 colors = ["red","blue","yellow","pink"]
 
-try :
-    print(colors[10])
-except IndexError as e:
-    print("例外発生：" + str(e))
+print(colors[10])

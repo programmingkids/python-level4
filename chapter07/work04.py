@@ -12,5 +12,3 @@ Italy
 
 nations = ["japan","SPAIN","france","ItaLY"]
 
-for nation in nations:
-    print(nation.capitalize())

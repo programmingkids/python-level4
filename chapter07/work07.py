@@ -16,5 +16,3 @@ from datetime import datetime
 
 date_str = "2005-04-15 10:30"
 
-dt_obj = datetime.strptime(date_str,"%Y-%m-%d %H:%M")
-print(dt_obj.strftime("%Y年%m月%d日%H時%M分"))

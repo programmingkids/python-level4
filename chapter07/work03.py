@@ -12,5 +12,3 @@ fukuoka
 
 cities = ["Tokyo","OSAKA","Nagoya","FuKUOKa"]
 
-for city in cities:
-    print(city.lower())

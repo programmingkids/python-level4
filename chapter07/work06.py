@@ -11,5 +11,3 @@
 
 names = ["山田","佐藤","田中","山本"]
 
-text = "::".join(names)
-print(text)

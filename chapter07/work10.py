@@ -18,8 +18,3 @@ Ariel
 
 members = ["Micky","Donald","Elsa","Anna","Ariel"]
 
-f = open("python-level4/chapter07/data/data10.txt", "w")
-
-for m in members :
-    f.write(m + "\n")
-f.close()

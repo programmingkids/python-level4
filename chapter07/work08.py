@@ -15,5 +15,3 @@ import math
 
 numbers = [2.5, 4.7, 6.9, 3.1, 1.8]
 
-for n in numbers:
-    print(math.ceil(n))

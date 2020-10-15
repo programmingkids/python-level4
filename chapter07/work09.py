@@ -20,7 +20,3 @@ November
 December
 """
 
-with open("python-level4/chapter07/data/data09.txt", "r") as f:
-    lines = f.readlines()
-    for line in lines:
-        print(line, end="")
